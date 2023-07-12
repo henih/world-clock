@@ -1,6 +1,20 @@
-body {
-  background: white;
+.container {
+  display: block;
+  margin: 50px auto 10px;
+  background: grey;
+  max-width: 500px;
+  border-radius: 8px;
+  padding: 10px;
 }
+
+select {
+  width: 480px;
+  padding: 5px;
+  border-radius: 8px;
+  color: darkslategrey;
+  
+}
+
 footer {
   text-align: center;
   font-size: 85%;
