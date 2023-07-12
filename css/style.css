@@ -1,3 +1,8 @@
 body {
   background: white;
 }
+footer {
+  text-align: center;
+  font-size: 85%;
+  color: grey;
+}
