@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🌊 Surf O'Clock</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -17,29 +19,29 @@
         <option value="">Arugam Bay, Sri Lanka 🇱🇰</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="city">
         <div>
-          <h2>Oahu, Hawaii 🇺🇸</h2>
+          <h2 value="US/Hawaii">Oahu, Hawaii 🇺🇸</h2>
 
-          <div class="date">August 15th 2022</div>
+          <div class="date"></div>
         </div>
-        <div class="time">1:48:15 <small> AM</small></div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="city">
         <div>
-          <h2>Jeffrey’s Bay, South Africa 🇿🇦</h2>
-          <div class="date">August 15th 2022</div>
+          <h2 value="Africa/Johannesburg">Jeffrey’s Bay, South Africa 🇿🇦</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
+        <div class="time"></div>
       </div>
 
       <div class="city">
         <div>
           <h2>Tahiti, French Polynesia 🇵🇫</h2>
-          <div class="date">August 15th 2022</div>
+          <div class="date"></div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
