@@ -53,7 +53,8 @@ function updateTimezone(event) {
             <div class="date">${cityDate}</div>
           </div>
           <div class="time">${cityTime}</div>
-        </div>`;
+        </div>
+        ⬅<a href="/"> Back to all cities</a>`;
     }
 
     let citySelectorTimezone = moment().tz(citySelected);
@@ -69,7 +70,8 @@ function updateTimezone(event) {
             <div class="date">${cityDate}</div>
           </div>
           <div class="time">${cityTime}</div>
-        </div>`;
+        </div>
+           ⬅<a href="/"> Back to all cities</a>`;
   }, 1000);
 }
 
