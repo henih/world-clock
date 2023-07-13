@@ -11,37 +11,47 @@
   <body>
     <div class="container">
       <h1>🏄🏼‍♀️ Surf O'Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Choose city</option>
-        <option value="">Bali, Indonesia 🇮🇩</option>
-        <option value="">Fuerteventura, Canary Islands 🇮🇨</option>
-        <option value="">Carrapateira, Portugal 🇵🇹</option>
-        <option value="">Arugam Bay, Sri Lanka 🇱🇰</option>
+        <option value="Asia/Jakarta" id="Asia/Jakarta">
+          Bali, Indonesia 🇮🇩
+        </option>
+        <option value="Atlantic/Canary" id="Atlantic/Canary">
+          Fuerteventura, Canary Islands 🇮🇨
+        </option>
+        <option value="Portugal" id="Portugal">
+          Carrapateira, Portugal 🇵🇹
+        </option>
+        <option value="Asia/Colombo" id="Asia/Colombo">
+          Arugam Bay, Sri Lanka 🇱🇰
+        </option>
       </select>
 
-      <div class="city" id="hawaii">
-        <div>
-          <h2>Oahu, Hawaii 🇺🇸</h2>
+      <div id="cities">
+        <div class="city" id="hawaii">
+          <div>
+            <h2>Oahu, Hawaii 🇺🇸</h2>
 
-          <div class="date"></div>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="johannesburg">
-        <div>
-          <h2 value="Africa/Johannesburg">Jeffrey’s Bay, South Africa 🇿🇦</h2>
-          <div class="date"></div>
+        <div class="city" id="johannesburg">
+          <div>
+            <h2 value="Africa/Johannesburg">Jeffrey’s Bay, South Africa 🇿🇦</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="french-polynesia">
-        <div>
-          <h2 value="Pacific/Tahiti">Tahiti, French Polynesia 🇵🇫</h2>
-          <div class="date"></div>
+        <div class="city" id="french-polynesia">
+          <div>
+            <h2 value="Pacific/Tahiti">Tahiti, French Polynesia 🇵🇫</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>

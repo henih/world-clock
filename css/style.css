@@ -21,7 +21,7 @@ select {
   margin: 70px auto 15px;
   background: lightblue;
   max-width: 550px;
-  height: 495px;
+  max-height: 495px;
   border-radius: 8px;
   padding: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
