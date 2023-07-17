@@ -1,3 +1,6 @@
+body {
+  background: #f5ebeb;
+}
 h1 {
   margin: 15px auto 40px 10px;
   text-align: center;
@@ -19,7 +22,8 @@ select {
 .container {
   display: block;
   margin: 70px auto 15px;
-  background: lightblue;
+  background: #3ab1c8;
+  color: #f5ebeb;
   max-width: 550px;
   max-height: 495px;
   border-radius: 8px;
@@ -33,7 +37,7 @@ select {
   margin: 0 0 0 5px;
   max-width: 540px;
   justify-content: space-between;
-  border-bottom: 1px dashed lightgray;
+  border-bottom: 1px dashed #f5ebeb;
   padding: 30px 0;
 }
 
@@ -52,10 +56,12 @@ select {
 }
 .date {
   font-size: 90%;
-  opacity: 50%;
+  opacity: 80%;
+  color: #f5ebeb;
 }
 
 footer {
+  color: #8f8787;
   text-align: center;
   font-size: 85%;
   opacity: 50%;
